@@ -1,0 +1,16 @@
+.new-post-btn {
+  border: 0.1rem solid gray;
+  border-radius: 0.5rem;
+  background-color: whitesmoke;
+  padding: 0.5rem 0.7rem;
+  margin: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.new-post-btn a {
+  text-decoration: none;
+  color: #1d1d1d;
+}
+
+.card {
+  cursor: pointer;
+}
