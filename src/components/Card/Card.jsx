@@ -25,9 +25,11 @@ export default function Card(props) {
 
   return (
     <div className="card" onClick={onClick}>
-      <div className="card-content">{content}</div>
-      <div className="card-created">
-        {moment(created).format('DD.MM.YYYY HH:mm:ss')}
+      <div className="card-body">
+        <div className="card-content">{content}</div>
+        <div className="card-created">
+          {moment(created).format('DD.MM.YYYY HH:mm:ss')}
+        </div>
       </div>
       {onClose && (
         <div className="card-close" onClick={() => onClose(id)}>

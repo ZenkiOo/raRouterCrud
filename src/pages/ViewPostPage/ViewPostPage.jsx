@@ -4,8 +4,7 @@ import Card from '../../components/Card/Card';
 import Page404 from '../../pages/Page404/Page404';
 
 export default function ViewPostPage({ match, history }) {
-  const { posts, handleRemove, handleEdit, editMode } =
-    useContext(PostsContext);
+  const { posts, handleRemove, handleEdit } = useContext(PostsContext);
   const { id } = match.params;
 
   const [post, setPost] = useState();
